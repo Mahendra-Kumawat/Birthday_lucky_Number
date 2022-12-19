@@ -49,7 +49,7 @@ function sum_of_DOB(DOB) {
 button.addEventListener("click" , () =>{
     if (DOB.value === ""){
         console.log("error")
-        success.innerText = "Fill date of birth"
+        success.innerText = "Fill the valid date of birth"
         DOB.addEventListener("click" , (e) =>{
             e.target.nextElementSibling.innerText = ""
         })
