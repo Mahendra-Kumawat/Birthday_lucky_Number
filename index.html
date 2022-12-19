@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Birthday Lucky Number</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   <div class="container">
+      <h1>
+         IS YOUR BIRTHDAY LUCKY OR NOT
+      </h1>
+
+      <div class="item">
+         <label for="DOB"> Enetr the Date of Birth</label>
+         <input type="date" id="DOB" class="n-border" required>
+         <div class="success red"></div>
+      </div>
+
+      <div class="item">
+         <label for="lucky-number"> Enetr your lucky number</label>
+         <input type="number" id="lucky-number" class="n-border" placeholder="Enter your lucky number" required>
+         <div class="error red"></div>
+      </div>
+
+      <button class="btn n-border"> Check Number</button>
+
+      <div class="output-container">
+         <h2 class="center"></h2>
+      </div>
+   </div>
+   <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item{
+    margin: 1rem;
+}
+
+.item label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item input{
+    display: block;
+    width: 220px;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    font-size: 1rem
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+.output-container{
+    /* background-color: green; */
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    width: 50%;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+/* utility classes  */
+.n-border{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.red{
+    color: red;
+    font-weight: bolder;
+}
+
+.green{
+    color: green;
+}
